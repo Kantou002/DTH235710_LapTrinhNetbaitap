@@ -40,51 +40,57 @@
             // 
             // txtUser
             // 
-            txtUser.Location = new Point(176, 34);
+            txtUser.Location = new Point(242, 37);
+            txtUser.Margin = new Padding(4, 3, 4, 3);
             txtUser.Name = "txtUser";
-            txtUser.Size = new Size(175, 27);
+            txtUser.Size = new Size(239, 30);
             txtUser.TabIndex = 0;
             // 
             // txtPass
             // 
-            txtPass.Location = new Point(176, 74);
+            txtPass.Location = new Point(242, 81);
+            txtPass.Margin = new Padding(4, 3, 4, 3);
             txtPass.Name = "txtPass";
-            txtPass.Size = new Size(175, 27);
+            txtPass.Size = new Size(239, 30);
             txtPass.TabIndex = 1;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(51, 37);
+            label1.Location = new Point(70, 41);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(107, 20);
+            label1.Size = new Size(124, 22);
             label1.TabIndex = 2;
             label1.Text = "Tên đăng nhập";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(51, 77);
+            label2.Location = new Point(70, 85);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(70, 20);
+            label2.Size = new Size(82, 22);
             label2.TabIndex = 3;
             label2.Text = "Mật khẩu";
             // 
             // chkNho
             // 
             chkNho.AutoSize = true;
-            chkNho.Location = new Point(57, 109);
+            chkNho.Location = new Point(78, 120);
+            chkNho.Margin = new Padding(4, 3, 4, 3);
             chkNho.Name = "chkNho";
-            chkNho.Size = new Size(85, 24);
+            chkNho.Size = new Size(100, 26);
             chkNho.TabIndex = 4;
             chkNho.Text = "Ghi Nhớ";
             chkNho.UseVisualStyleBackColor = true;
             // 
             // btnDangnhap
             // 
-            btnDangnhap.Location = new Point(57, 146);
+            btnDangnhap.Location = new Point(78, 161);
+            btnDangnhap.Margin = new Padding(4, 3, 4, 3);
             btnDangnhap.Name = "btnDangnhap";
-            btnDangnhap.Size = new Size(94, 29);
+            btnDangnhap.Size = new Size(129, 32);
             btnDangnhap.TabIndex = 5;
             btnDangnhap.Text = "Đăng Nhập";
             btnDangnhap.UseVisualStyleBackColor = true;
@@ -92,9 +98,10 @@
             // 
             // btnXoa
             // 
-            btnXoa.Location = new Point(157, 146);
+            btnXoa.Location = new Point(216, 161);
+            btnXoa.Margin = new Padding(4, 3, 4, 3);
             btnXoa.Name = "btnXoa";
-            btnXoa.Size = new Size(94, 29);
+            btnXoa.Size = new Size(129, 32);
             btnXoa.TabIndex = 6;
             btnXoa.Text = "Xóa";
             btnXoa.UseVisualStyleBackColor = true;
@@ -102,9 +109,10 @@
             // 
             // btnDung
             // 
-            btnDung.Location = new Point(257, 146);
+            btnDung.Location = new Point(353, 161);
+            btnDung.Margin = new Padding(4, 3, 4, 3);
             btnDung.Name = "btnDung";
-            btnDung.Size = new Size(94, 29);
+            btnDung.Size = new Size(129, 32);
             btnDung.TabIndex = 7;
             btnDung.Text = "Dừng";
             btnDung.UseVisualStyleBackColor = true;
@@ -112,9 +120,9 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(11F, 22F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(417, 187);
+            ClientSize = new Size(573, 206);
             Controls.Add(btnDung);
             Controls.Add(btnXoa);
             Controls.Add(btnDangnhap);
@@ -123,6 +131,8 @@
             Controls.Add(label1);
             Controls.Add(txtPass);
             Controls.Add(txtUser);
+            Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Margin = new Padding(4, 3, 4, 3);
             Name = "Form1";
             Text = "Form Đăng Nhập";
             ResumeLayout(false);
